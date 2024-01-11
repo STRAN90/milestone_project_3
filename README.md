@@ -1,5 +1,14 @@
 # Allergy Wise Food
-Brief description of your project with image from AmIResponsive
+
+## Project Overview 
+
+**Allergy Wise Food**  is a website developed from the idea of my journey as a parent to children with food allergies. It was hard to come by for recipes that were allergen free and easily accessible online. 
+Allergy Wise Food is a recipe sharing and management application where caregivers of children with food allergies can create, share, edit and delete their ideas for recipes. 
+
+I have designed the website to be user friendly as its main focus. It is designed to be fully responsive and accessible on a range of devices.  
+
+**Link to website** [here](https://stran90.github.io/Milestone-project-2/).
+
 
 ## Table Of Contents:
 1. [Design & Planning](#design-&-planning)
