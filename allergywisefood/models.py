@@ -1,7 +1,7 @@
 from allergywisefood import db
 
 
-class Catergory(db.Model):
+class Category(db.Model):
     # schema for Category Model
     id = db.Column(db.Integer, primary_key=True)
     category_name = db.Column(db.String(30), unique=True, nullable=False)
