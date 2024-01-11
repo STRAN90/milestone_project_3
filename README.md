@@ -36,7 +36,28 @@ I have designed the website to be user friendly as its main focus. It is designe
 ## Design & Planning:
 
 ### User Stories
-Write your user stories in this section
+#### Target Audience
+
+- A parent/care giver looking for recipes not containing one or more of the top 14 common food allergens to cook for their family. 
+- Any one looking for inspiration for a recipe to cook, that are free from top one or more of the top 14 food allergens. 
+
+#### First-time Visitor Goals 
+- As a first time user, I want to see short information about the main purpose of the site, how to use the site. 
+- As a first time user, I want to look through recipes. 
+- As a first time user, I want to be able create/login an user account. 
+
+#### Registered User Visitor Goals
+- As a registered user, I want to be able to add, edit and delete own recipes.  
+- As a registered user, I want to be able to uplaod images to my recipes. 
+- As a registered user, I want to be able to add recipes based on categories. 
+- As a registered user, I want to 
+
+#### Site Owner Goals
+- As the site owner, I want users to quickly know what Allergy Wise Food is offering.
+- As the site owner, I want have the ability to maintain editing or deleting categories. 
+- As the site owner, I want the add, edit or delete own recipes. 
+- As the site owner I want delete any recipes by other users. 
+
 ### Wireframes
 Attach wireframes in this section
 ### Typography
