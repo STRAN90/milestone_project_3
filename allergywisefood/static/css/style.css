@@ -46,4 +46,22 @@ nav ul a {
     font-weight: bolder;
 }
 
+.bio {
+    font-family: 'Roboto', sans serif;
+}
+
+.action-btn {
+    position: relative;
+    padding: 10px!important;
+    bottom: 0;
+    margin: 5px;
+}
+
+.hero-btn {
+    background-color: rgb(154, 103, 201);
+}
+
+.btn:hover {
+    background-color: rgb(154, 103, 201);
+}
 
