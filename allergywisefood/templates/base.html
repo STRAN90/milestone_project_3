@@ -12,7 +12,7 @@
     <header>
         <div class="navbar-fixed">
             <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#!">Register</a></li>
+                <li><a href="{{ url_for('register') }}">Register</a></li>
                 <li class="divider"></li>
                 <li><a href="#!">Login</a></li>
             </ul>
@@ -22,8 +22,11 @@
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger menu"><i class="fa-solid fa-ellipsis"></i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="{{ url_for('home') }}">Home</a></li>
-                        <li><a href="#">Recipes</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Add Recipe</a></li>
                         <li><a href="#">Categories</a></li>
+                        <li><a href="#">Log out</a></li>
                         <li><a class="dropdown-trigger btn my-btn yellow z-depth-5" href="#!" data-target="dropdown1">Account</a></li>
                     </ul>
                 </div>
@@ -32,14 +35,14 @@
 
         <ul class="sidenav" id="mobile-demo">
             <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="#">Recipies</a></li>
+            <li><a href="{{ url_for('recipes') }}">Recipies</a></li>
             <li>
                 <ul class="collapsible collapsible-accordion my-collaps">
                     <li>
                         <a class="collapsible-header my-collaps"></i> Account</a>
                         <div class="collapsible-body">
                             <ul id="" class="">
-                                <li><a href="#!">Register</a></li>
+                                <li><a href="{{ url_for('register') }}">Register</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#!">Login</a></li>
                             </ul>
