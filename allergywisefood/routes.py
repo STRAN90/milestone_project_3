@@ -4,4 +4,4 @@ from allergywisefood.models import Category, Users
 
 @app.route("/")
 def home():
-    return render_template("base.html")
+    return render_template("index.html")

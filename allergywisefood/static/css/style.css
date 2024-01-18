@@ -17,8 +17,27 @@ body {
     font-weight: 600;
 }
 
+.my-btn {
+    color: #000;
+}
+
+.dropdown-trigger {
+text-transform: initial;
+font-size: large;
+}
+
 nav ul a {
     color: rgb(9, 51, 0);
 }
 
+/* Hero */
+
+.hero-img {
+    height: 30%;
+    width: 100%;
+}
+
+.row .col {
+    padding: 0%;
+}
 
