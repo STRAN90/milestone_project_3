@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* logo */
 .logo-fork {
     height: 100%; 
-    width: 10%;
+    width: 8%;
 }
+
+/* Navbar */
+.my-nav{
+    height: 60px;
+    background-color: rgba(255, 255, 255);
+    font-weight: 600;
+}
+
+nav ul a {
+    color: rgb(9, 51, 0);
+}
+
+

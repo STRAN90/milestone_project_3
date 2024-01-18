@@ -16,28 +16,28 @@
                 <li class="divider"></li>
                 <li><a href="#!">Login</a></li>
             </ul>
-            <nav>
+            <nav class="my-nav">
                 <div class="nav-wrapper">
-                    <img src="{{ url_for('static', filename='images/logo.webp') }}" class="brand-logo logo-fork"</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
-                            class="fa-solid fa-ellipsis"></i></a>
+                    <img src="{{ url_for('static', filename='images/logo.webp') }}" class="brand-logo logo-fork" </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger menu"><i class="fa-solid fa-ellipsis"></i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="{{ url_for('home') }}">Home</a></li>
                         <li><a href="#">Recipes</a></li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Account <i
+                        <li><a href="#">Categories</a></li>
+                        <li><a class="dropdown-trigger btn my-btn yellow z-depth-5" href="#!" data-target="dropdown1">Account <i
                                     class="fa-solid fa-caret-down fa-xs"></i></a></li>
                     </ul>
                 </div>
             </nav>
-        </div>
+            </div>
 
         <ul class="sidenav" id="mobile-demo">
             <li><a href="{{ url_for('home') }}">Home</a></li>
             <li><a href="#">Recipies</a></li>
             <li>
-                <ul class="collapsible collapsible-accordion">
+                <ul class="collapsible collapsible-accordion my-collaps">
                     <li>
-                        <a class="collapsible-header"><i class="fa-solid fa-caret-down fa-xs"></i> Account</a>
+                        <a class="collapsible-header my-collaps"><i class="fa-solid fa-caret-down fa-xs"></i> Account</a>
                         <div class="collapsible-body">
                             <ul id="" class="">
                                 <li><a href="#!">Register</a></li>
@@ -50,9 +50,18 @@
             </li>
         </ul>
     </header>
+    <main>
+
+    </main>
+    <footer class="page-footer white my-footer">
+        <div class="footer-copyright black-text">
+            <div class="container center-align">&copy; Allergy Wise Food 2024</div>
+        </div>
+    </footer>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
 </body>
 </html>
